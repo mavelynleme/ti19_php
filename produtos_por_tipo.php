@@ -47,7 +47,7 @@ $totalRows  =   ($lista)->num_rows;
 <!-- Mostrar se os registros NÃO retornarem VAZIOS -->
 <?php if($totalRows > 0){ ?>
 <h2 class="breadcrumb alert-danger">
-    <a href="javascript:window.history.go(-1)" class="btn btn-danger">
+    <a href="javascript:window.history.go(-1)" class="btn btn-info">
         <span class="glyphicon glyphicon-chevron-left"></span>
     </a>
     <strong><?php echo $row['rotulo_tipo']; ?></strong>
